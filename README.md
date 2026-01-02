@@ -1,5 +1,4 @@
-Forward testing version of an automated NQ trading bot
-Regression model that imports financial data and redeploys strategy daily after market close
-Should generate 10-20 trades/month
-All forward testing data will be logged in the CSV file 
-*Do no change directory of CSV file*
+The Problem: "Quantitative trading strategies often fail due to over-fitting on historical data."
+The Solution: "An ML-driven approach using Ensemble Learning (Random Forest) to classify market direction, validated through forward-testing
+The Tech Stack:Python, Scikit-Learn, Pandas.
+Performance Metrics: Using 15m and 1m timeframes with an accuracy score of 82% across 52 trades as of 1.2.2026
