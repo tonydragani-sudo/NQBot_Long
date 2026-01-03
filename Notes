@@ -8,3 +8,8 @@ print model to ld joblib
 Print 1 to open position or 0 to stay flat
 Calculate sigma & manage trade if prior cell signal 1
 
+Other Notes:
+API excluded from github
+Logic is protected, the public repository only demonstrates the ETL and validation framework
+Does not include any pinescript
+Accuracy score = .72
