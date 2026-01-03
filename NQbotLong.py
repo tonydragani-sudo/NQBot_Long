@@ -52,11 +52,7 @@ def round_to_quarter(price):
     return round(price * 4) / 4
 
 # Define constants (matching backtester settings)
-PROBABILITY_THRESHOLD = 0.6
-SLIPPAGE_AMOUNT = 2.0
-MIN_PROFIT_TARGET_POINTS = 5.0
-TRAILING_STOP_ATR_MULTIPLIER = 1.0
-EXIT_PROBABILITY_THRESHOLD = 0.45
+#Proprietary Logic - model weights and features are removed for IP protection
 
 # --- State Variables for Live Trading ---
 is_trade_open = False
@@ -72,4 +68,5 @@ open_trade = {
 #Proprietary Logic - model weights and features are removed for IP protection
 
     time.sleep(60) # Poll every 1 minute
+
 
