@@ -1,11 +1,10 @@
 Current Workflow:
 Install yfinance, pandas, numpy, and skilearnkit tools
 import yfinance data of 15m bars w/ volume
-*mount to google drive* (remove in next commit)
 pull RSI, ATR and EMAs from 15m bars
 round to tick size (.25 for NQ)
-run data through RFC and print accuracy score
-import joblib
+model training
+print model to ld joblib
 Print 1 to open position or 0 to stay flat
 Calculate sigma & manage trade if prior cell signal 1
 
